@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MAIN PAGE -->
+    <string name="fremtidsprognoser">每年气候</string>
+    <string name="kart">挪威地图</string>
+    <string name="utvikling">每月气候</string>
+
+    <!-- BOTTOM NAV BAR -->
+    <string name="temperatur">气温</string>
+    <string name="snø">雪量</string>
+    <string name="nedbør">雨量</string>
+
+    <!-- INSTILLINGER -->
+    <string name="stedstjenesteTitle">启用位置服务</string>
+    <string name="stedstjeneste">位置服务</string>
+    <string name="språkTitle">更换语言</string>
+    <string name="velgSpråk">选择语言</string>
+    <string name="settingTitle">设置</string>
+    <string name="darkModeTitle">启用暗模式</string>
+    <string name="darkMode">暗模式</string>
+    <string name="språk">更换语言</string>
+
+    <!-- DAILY CLIMATE -->
+
+    <!-- MONTHLY CLIMATE -->
+    <string name="title_activity_klimautvikling">挪威每月气候变化</string>
+    <string name="velgMaaned">请选择月</string>
+
+    <!-- FUTURE FORECAST -->
+    <string name="gjTmpAar">平均温度 - 每年</string>
+    <string name="gjTmpSesong">平均温度 - 季节</string>
+    <string name="velgType">请选择</string>
+    <string name="nedborAar">降水量 - 每年</string>
+    <string name="nedborSesong">降水量 - 季节</string>
+    <string name="grense">显示/隐藏平均线</string>
+
+    <!-- KART -->
+    <string name="mapName">气候变化-挪威地图</string>
+    <string name="norgeskart">挪威地图</string>
+    <string name="fargeblindvennlig">更改颜色</string>
+
+    <!-- TULL -->
+    <string name="nav_header_title">nav_header_title</string>
+    <string name="nav_header_subtitle">nav_header_subtitle</string>
+    <string name="nav_header_desc">nav_header_desc</string>
+    <string name="title_notifications">title_notifications</string>
+    <string name="title_home">title_home</string>
+    <string name="title_dashboard">title_dashboard</string>
+    <string name="desc">描述</string>
+    <string name="rstall">"年 "</string>
+    <string name="_1963">1963</string>
+
+    <!-- SEARCH -->
+    <string name="station_prompt">请选择气象站</string>
+    <string-array name="station_arrays">
+        <item>Oslo (Blindern)</item>
+        <item>Ås (NMBU) - Akershus</item>
+        <item>Rygge - Østfold</item>
+        <item>Østre Toten - Oppland</item>
+        <item>Færder - Vestfold</item>
+        <item>Kristiansand - Vest-Agder</item>
+        <item>Utsira - Rogaland</item>
+        <item>Bømlo - Hordaland</item>
+        <item>Norddal - Møre og Romsdal</item>
+        <item>Meløy - Nordland</item>
+        <item>Tromsø - Troms</item>
+        <item>Kautokeino - Finnmark</item>
+        <item>Hornsund - Svalbard</item>
+        <item>Jan Mayen</item>
+        <item>Hele Norge</item>
+    </string-array>
+
+    <string name="element_prompt">请选择数据类型</string>
+    <string-array name="element_arrays">
+        <item>气温数据</item>
+        <item>雨量数据</item>
+        <item>雪量数据</item>
+    </string-array>
+
+    <string name="temperatureData">气温数据</string>
+    <string name="rainfallData">雨量数据</string>
+    <string name="snowfallData">雪量数据</string>
+
+    <string name="submit">搜索</string>
+    <string name="searchName">天气数据搜索功能</string>
+    <string name="noData">"抱歉，%1$s在所选日期没有%2$s。"</string>
+    <string name="weatherStation">气象台</string>
+    <string name="dataType">数据类型</string>
+    <string name="date">日期</string>
+
+    <string name="termsOfService">使用条款</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="cancel_mail">取消</string>
+    <string name="content_mail">信息</string>
+    <string name="dagens">今天的气候</string>
+    <string name="send_mail">发送</string>
+    <string name="september">九月</string>
+    <string name="GPS">请打开GPS</string>
+    <string name="MadeBy">EcoGraphics由Ahlam Aatif Zixiuan Liu Mai Julie Nguyen Thu Thu Thi Vo Eline Wong</string>
+    <string name="_1963_rain">1966</string>
+    <string name="_1963_temp">1966</string>
+    <string name="action_settings">设置</string>
+    <string name="april">四月</string>
+    <string name="august">八月</string>
+    <string name="bliKjent">单击此处以了解有关ecoGraphics功能的更多信息</string>
+    <string name="dagensklima">今天的气候偏差</string>
+    <string name="data">"来自API的数据 "</string>
+    <string name="desember">十二月</string>
+    <string name="dialog_title">"发送邮件 "</string>
+    <string name="ecoTittel">欢迎来到ecoGraphics！</string>
+    <string name="februar">二月</string>
+    <string name="gjennomsnittstemperatur_i_celcius">"摄氏温度的平均温度 "</string>
+    <string name="januar">一月</string>
+    <string name="juli">七月</string>
+    <string name="juni">六月</string>
+    <string name="kontaktOss">"联系我们 "</string>
+    <string name="mai">五月</string>
+    <string name="message_mail">信息</string>
+    <string name="mars">三月</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nedbor">雨量</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="nedborMM">"以mm为单位的沉淀 "</string>
+    <string name="november">十一月</string>
+    <string name="oktober">十月</string>
+    <string name="regresjon">回归</string>
+    <string name="title_mail">标题</string>
+    <string name="tittel_nedbør">"年内总降水量mm "</string>
+    <string name="tmp">"温度 "</string>
+    <string name="tmpCelcius">"温度在celcius "</string>
+    <string name="tutorial">教程</string>
+    <string name="ecoBeskrivelse">EcoGraphics是挪威多年来温度和降雨量历史数据的集合。 数据通过四种不同的功能呈现。</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="intro_mail">ecoGraphics有什么问题吗？ 给我们发电子邮件！ 为下面的问题区域写下标题和说明，我们将尽力解决问题。</string>
+    <string name="goToActivity">"去功能 "</string>
+    <string name="searchBeskrivelse">"第一个功能让您有机会在特定日期找到您所选择的城市的温度和降雨量 "</string>
+    <string name="searchTitle">"搜索日期 "</string>
+    <string name="monthTitle">"比较挪威的几个月 "</string>
+    <string name="monthBeskrivelse">"此功能为您提供多年所选月份的温度或降雨量的数据。 此外，还有一条回归线，可以让您看见气候变化以及今后的发展。 "</string>
+    <string name="yearTitle">"比较挪威每年气候数据 "</string>
+    <string name="yearBeskrivelse">在这里，您可以看到挪威多年的平均气温与降水量。 您可以比较每年或每季节的数据。</string>
+    <string name="mapTitle">"地图上比较挪威的省 "</string>
+    <string name="mapBeskrivelse">在这里，您可以看到挪威不同省的温度和降雨量。 把滑块拖动到所需的年份，然后点击变化颜色。</string>
+    <string name="tutorialTitle">教程</string>
+    <string name="done">完成</string>
+    <string name="naa">Now</string>
+    <string name="versjon">"Ecographics 版本 1.0.0"</string>
+    <string name="termsOfServiceInnhold">EcoGraphics is a free mobile application developed by Ahlam Aatif, Eline Wong, ThuThuan Thi Vo, Mai Julie Nguyen and Zixuan Liu as a part of the IN2000 project spring 2019 at the University of Oslo. The purpose of this app is to visualize historical climate data based on the API by Frost from the Metereological Institute. \n\n
+
+If you grant EcoGraphics access to your location, it will be used to find the weather station closest to your current location, as well as the temperature in that location. This information will not be saved\n\n
+
+Any emails sent to the developers will be saved until the inquiry is answered. If you wish to delete the email before it is answered, please send us a message using the messaging function in Settings of the app.
+    </string>
+</resources>

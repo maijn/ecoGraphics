@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:background="?attr/backgroundColor"
+        tools:context=".settings.Settings">
+
+    <!--DARK MODE-->
+    <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:background="?attr/cardBackground"
+            app:cardBackgroundColor="?attr/cardBackground"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/darkModeTitle"
+                    android:textColor="?attr/textColor"
+                    android:textStyle="bold"/>
+
+            <Switch
+                    android:id="@+id/darkMode_switch"
+                    android:text="@string/darkMode"
+                    android:textColor="?attr/textColor"
+                    android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <!--SPRÅK-->
+    <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="?attr/cardBackground"
+            app:cardBackgroundColor="?attr/cardBackground"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_right_arrow"
+                android:id="@+id/change_lang"
+                android:text="@string/språkTitle"
+                android:textColor="?attr/textColor"
+                android:gravity="start"
+                android:textAllCaps="false"
+                android:background="@null"
+                android:textSize="18sp"
+                android:padding="10dp"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="?attr/cardBackground"
+            app:cardBackgroundColor="?attr/cardBackground"
+            android:layout_height="wrap_content">
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_right_arrow"
+                android:id="@+id/about_eco"
+                android:text="@string/tutorial"
+                android:textColor="?attr/textColor"
+                android:gravity="start"
+                android:textAllCaps="false"
+                android:background="@null"
+                android:textSize="18sp"
+                android:padding="10dp"/>
+    </android.support.v7.widget.CardView>
+
+
+    <!--Terms of Serive -->
+    <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="?attr/cardBackground"
+            app:cardBackgroundColor="?attr/cardBackground"
+            android:layout_height="wrap_content">
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_right_arrow"
+                android:id="@+id/termsOfService"
+                android:text="@string/termsOfService"
+                android:textColor="?attr/textColor"
+                android:gravity="start"
+                android:textAllCaps="false"
+                android:background="@null"
+                android:textSize="18sp"
+                android:padding="10dp"/>
+    </android.support.v7.widget.CardView>
+
+
+    <!--Kontakt oss-->
+    <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="?attr/cardBackground"
+            app:cardBackgroundColor="?attr/cardBackground"
+            android:layout_height="wrap_content">
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_right_arrow"
+                android:drawablePadding="50dp"
+                android:drawableTint="?attr/textColor"
+                android:id="@+id/kontaktOss"
+                android:text="@string/kontaktOss"
+                android:textColor="?attr/textColor"
+                android:gravity="start"
+                android:textAllCaps="false"
+                android:background="@null"
+                android:textSize="18sp"
+                android:padding="10dp"/>
+    </android.support.v7.widget.CardView>
+
+    <TextView android:layout_width="wrap_content"
+              android:text="@string/versjon"
+              android:layout_gravity="center"
+              android:textSize="14sp"
+              android:textColor="?attr/textColor"
+              android:layout_marginTop="10dp"
+              android:layout_height="wrap_content"/>
+
+    <android.support.design.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="50dp"
+                android:id="@+id/sun_icon" android:layout_gravity="center"/>
+        <android.support.design.bottomappbar.BottomAppBar
+                android:layout_width="match_parent"
+                android:padding="25dp"
+                android:id="@+id/bottom_bar"
+                android:clickable="false"
+                app:fabAlignmentMode="center"
+                app:backgroundTint="?attr/bottomBarColor"
+                android:layout_gravity="bottom"
+                android:layout_height="wrap_content">
+        </android.support.design.bottomappbar.BottomAppBar>
+
+        <android.support.design.widget.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:id="@+id/fab"
+                app:layout_anchor="@id/bottom_bar"
+                android:src="@drawable/ic_home"
+                android:tint="@color/white"
+                app:backgroundTint="?attr/colorPrimary"
+                android:layout_height="wrap_content"/>
+    </android.support.design.widget.CoordinatorLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+

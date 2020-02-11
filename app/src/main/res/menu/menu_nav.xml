@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:title="@string/temperatur"
+            android:id="@+id/temperatur"
+            android:enabled="true"
+            android:icon="@drawable/ic_007_warm"
+            app:showAsAction="ifRoom" />
+
+    <item
+            android:title=""
+            android:checkable="false"
+            android:checked="false"
+            app:showAsAction="always"
+            android:enabled="false"/>
+
+    <item
+            android:title="@string/nedbør"
+            android:id="@+id/nedbør"
+            android:enabled="true"
+            android:icon="@drawable/ic_009_drops"
+            app:showAsAction="ifRoom" />
+</menu>

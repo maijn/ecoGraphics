@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="?attr/backgroundColor"
+              tools:context=".settings.AboutEcographics">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ecoTittel"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:textColor="?attr/textColor"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"/>
+    <ImageView
+            android:layout_width="191dp"
+            android:layout_height="204dp"
+            android:src="@drawable/ic_sun"
+            android:contentDescription="@string/desc"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"/>
+    <TextView
+            android:layout_width="262dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="?attr/textColor"
+            android:textSize="15sp"
+            android:text="@string/ecoBeskrivelse"
+            android:layout_marginTop="30dp"/>
+    <Button
+            android:layout_width="326dp"
+            android:layout_margin="30dp"
+            android:id="@+id/videre"
+            android:text="@string/bliKjent"
+            android:textColor="?attr/textColor"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+

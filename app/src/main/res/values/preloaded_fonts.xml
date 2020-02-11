@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/advent_pro_light</item>
+        <item>@font/advent_pro_medium</item>
+        <item>@font/advent_pro_semibold</item>
+        <item>@font/cambay_bold</item>
+        <item>@font/carme</item>
+        <item>@font/pt_sans_narrow_bold</item>
+    </array>
+</resources>

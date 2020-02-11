@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!--<color name="colorPrimary">#000000</color> -->
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="orange">#FD6402</color>
+    <color name="colorAccent">#000</color>
+
+    <color name="black">#000000</color>
+    <color name="darkgrey">#424242</color>
+    <color name="lightgrey">#949494</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#4fc1e9</color>
+    <color name="blueDark">#3bafda</color>
+    <color name="red">#fc6e51</color>
+    <color name="redDark">#e9573f</color>
+    <color name="yellow">#ffce54</color>
+    <color name="yellowDark">#f6bb42</color>
+    <color name="green">#a0d468</color>
+    <color name="greenDark">#8cc152</color>
+    <color name="mint">#48cfad</color>
+    <color name="mintDark">#37bc9b</color>
+    <color name="lavender">#AC92EC</color>
+    <color name="lavenderDark">#967adc</color>
+
+    <!-- Gamle farger, kan bytte ut senere -->
+    <color name="colorPrimary">#008577</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorLimit">#FF5252</color>
+    <color name="brown">#632C11</color>
+    <color name="winterblue">#C2E9FB</color>
+    <color name="purpure">#7E5A76</color>
+
+    <color name="colorNavBackLight">#808080</color>
+    <color name="colorNavBackDark">#000000</color>
+
+</resources>

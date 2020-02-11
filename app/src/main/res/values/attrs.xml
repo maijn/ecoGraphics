@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ds">
+        <!--start Page-->
+        <attr name="appNameColor" format="color"/>
+        <attr name="dailyColor" format="color"/>
+        <attr name="monthlyColor" format="color"/>
+        <attr name="futureColor" format="color"/>
+        <attr name="mapColor" format="color"/>
+        <attr name="sunColor" format="color"/>
+        <attr name="iconColor" format="color"/>
+        <attr name="mainPicture" format="reference"/>
+        <attr name="mainPictureOutline" format="reference"/>
+
+        <!-- div -->
+        <attr name="backgroundColor" format="color"/>
+        <attr name="cardBackground" format="color"/>
+        <attr name="textColor" format="color"/>
+        <attr name="tintColor" format="color"/>
+        <attr name="buttonTextColor" format="color"/>
+        <attr name="buttonStartColor" format="color"/>
+        <attr name="buttonEndColor" format="color"/>
+        <attr name="buttonColor" format="color"/>
+        <attr name="bottomNavBarColor" format="color"/>
+        <attr name="bottomNavBarTextColor" format="color"/>
+        <attr name="homeButtonColor" format="color"/>
+        <attr name="backgroundColor2" format="color"/>
+
+        <!-- daily climate-->
+        <attr name="daily_background" format="reference"/>
+        <attr name="fontColor" format="color"/>
+
+        <!--Search function-->
+        <attr name="backgroundImage" format="reference"/>
+        <attr name="searchPicture" format="reference"/>
+        <attr name="colorNavBack" format="reference"/>
+
+        <!--Settings-->
+        <attr name="sunIconColor" format="color"/>
+        <attr name="bottomBarColor" format="color"/>
+
+        <!--Test-->
+        <attr name="test" format="reference"/>
+    </declare-styleable>
+</resources>

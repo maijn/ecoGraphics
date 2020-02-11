@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             android:clickable="true"
+                                             android:background="?attr/backgroundImage"
+                                             android:focusableInTouchMode="true">
+
+    <EditText
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/datePicker"
+            android:focusable="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:hint="@string/date"
+            android:textColor="?attr/textColor"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/element_spinner"
+            android:layout_marginEnd="40dp" android:textAlignment="viewStart"/>
+    <TextView
+            android:layout_width="340dp"
+            android:layout_height="34dp"
+            android:id="@+id/result_date"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.518"
+            android:textAlignment="center"
+            android:textColor="?attr/textColor"
+            app:layout_constraintTop_toBottomOf="@+id/result_station"/>
+    <Button
+            android:text="@string/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/submitButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            android:layout_marginTop="16dp" app:layout_constraintTop_toBottomOf="@+id/datePicker"/>
+    <Spinner
+            android:layout_width="280dp"
+            android:layout_height="38dp"
+            android:id="@+id/station_spinner"
+            android:entries="@array/station_arrays"
+            android:prompt="@string/station_prompt"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="58dp" app:layout_constraintTop_toBottomOf="@+id/result_value"
+            android:layout_marginEnd="16dp"
+            android:textColor="?attr/textColor"/>
+    <Spinner
+            android:layout_width="280dp"
+            android:layout_height="38dp"
+            android:id="@+id/element_spinner"
+            android:entries="@array/element_arrays"
+            android:prompt="@string/element_prompt"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="15dp"
+            app:layout_constraintTop_toBottomOf="@+id/station_spinner"
+            android:layout_marginEnd="16dp"
+            android:textColor="?attr/textColor"/>
+    <TextView
+            android:layout_width="180dp"
+            android:layout_height="64dp"
+            android:id="@+id/result_value" android:textAlignment="center"
+            android:textSize="36sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            android:layout_marginTop="19dp" app:layout_constraintTop_toBottomOf="@+id/datatype"
+            android:textColor="@color/yellow"/>
+    <TextView
+            android:layout_width="180dp"
+            android:layout_height="24dp"
+            android:id="@+id/result_station"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textAlignment="center"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="?attr/textColor"
+            android:layout_marginTop="64dp"/>
+    <TextView
+            android:layout_width="265dp"
+            android:layout_height="27dp"
+            android:id="@+id/datatype"
+            app:layout_constraintTop_toBottomOf="@+id/result_date" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="?attr/textColor"
+            android:textAlignment="center"
+    />
+    <TextView
+            android:text="@string/weatherStation"
+            android:layout_width="85dp"
+            android:layout_height="36dp"
+            android:id="@+id/textView2" android:textSize="14sp"
+            android:textColor="?attr/textColor" android:textAlignment="viewEnd"
+            app:layout_constraintEnd_toStartOf="@+id/station_spinner" android:layout_marginEnd="16dp"
+            app:layout_constraintTop_toTopOf="@+id/station_spinner" android:layout_marginTop="4dp"/>
+    <TextView
+            android:text="@string/dataType"
+            android:layout_width="67dp"
+            android:layout_height="20dp"
+            android:id="@+id/textView3" android:textAlignment="viewEnd"
+            android:textColor="?attr/textColor"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:layout_constraintEnd_toStartOf="@+id/element_spinner" android:layout_marginEnd="12dp"
+    />
+    <TextView
+            android:text="@string/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4" android:textColor="?attr/textColor"
+            android:layout_marginTop="40dp" app:layout_constraintTop_toBottomOf="@+id/textView3"
+            app:layout_constraintEnd_toStartOf="@+id/datePicker" android:layout_marginEnd="12dp"
+            android:textAlignment="viewEnd"/>
+    <TextView
+            android:layout_width="300dp"
+            android:layout_height="54dp"
+            android:id="@+id/nodata_text" android:textAlignment="center"
+            android:textColor="?attr/textColor"
+            app:layout_constraintTop_toBottomOf="@+id/sun_search"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="10dp"/>
+    <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/sun_search" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="84dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    <include layout="@layout/navigation_home"></include>
+</android.support.constraint.ConstraintLayout>

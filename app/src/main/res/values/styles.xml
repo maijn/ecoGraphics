@@ -1,0 +1,272 @@
+<resources>
+    <!--MAIN-->
+    <style name="lightThemeStartPage" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="mainPicture">@drawable/ic_sun</item>
+        <item name="mainPictureOutline">@drawable/ic_sun_outline</item>
+        <item name="appNameColor">@color/black</item>
+        <item name="backgroundColor">#fcfcfc</item>
+        <item name="textColor">@color/white</item>
+        <item name="dailyColor">@color/yellow</item>
+        <item name="monthlyColor">@color/red</item>
+        <item name="futureColor">@color/blue</item>
+        <item name="mapColor">@color/green</item>
+        <item name="sunColor">@null</item>
+        <item name="iconColor">@color/white</item>
+        <item name="fontColor">@color/brown</item>
+        <item name="android:windowAnimationStyle">@style/windowAnimationTransition</item>
+    </style>
+
+    <style name="darkThemeStartPage" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="mainPicture">@drawable/ic_moon2</item>
+        <item name="mainPictureOutline">@drawable/ic_moon_outline</item>
+        <item name="appNameColor">@color/lightgrey</item>
+        <item name="backgroundColor">#303030</item>
+        <item name="textColor">@color/lightgrey</item>
+        <item name="dailyColor">@color/black</item>
+        <item name="monthlyColor">@color/black</item>
+        <item name="futureColor">@color/black</item>
+        <item name="mapColor">@color/black</item>
+        <item name="sunColor">@color/black</item>
+        <item name="iconColor">@color/lightgrey</item>
+        <item name="android:windowAnimationStyle">@style/windowAnimationTransition</item>
+    </style>
+
+    <!-- SETTINGS -->
+    <style name="lightThemeSettings" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/lavender</item>
+        <item name="colorPrimaryDark">@color/lavenderDark</item>
+        <item name="colorAccent">@color/lavender</item>
+        <item name="backgroundColor">#fcfcfc</item>
+        <item name="cardBackground">@color/white</item>
+        <item name="textColor">#525252</item>
+        <item name="tintColor">@color/black</item>
+        <item name="buttonColor">#D3D3D3</item>
+        <item name="buttonTextColor">@color/white</item>
+        <item name="colorNavBack">@color/lavender</item>
+        <item name="android:windowAnimationStyle">@style/windowAnimationTransition</item>
+        <item name="sunIconColor">#DED2FF</item>
+        <item name="bottomBarColor">#d3d3d3</item>
+    </style>
+
+    <!--ABOUT -->
+
+    <style name="lightThemeAbout" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/lavender</item>
+        <item name="colorPrimaryDark">@color/lavenderDark</item>
+        <item name="colorAccent">@color/lavender</item>
+        <item name="backgroundColor">#fcfcfc</item>
+        <item name="cardBackground">@color/white</item>
+        <item name="textColor">#808080</item>
+        <item name="tintColor">@color/black</item>
+        <item name="buttonColor">#D3D3D3</item>
+        <item name="buttonTextColor">@color/white</item>
+        <item name="android:windowAnimationStyle">@style/windowAnimationTransition</item>
+    </style>
+
+    <!-- DAILY climate -->
+    <style name="lightThemeDailyCold" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/blueDark</item>
+        <item name="backgroundColor">#fcfcfc</item>
+        <item name="cardBackground">@color/white</item>
+        <item name="textColor">@color/winterblue</item>
+        <item name="tintColor">@color/black</item>
+        <item name="buttonColor">#D3D3D3</item>
+        <item name="buttonTextColor">@color/white</item>
+        <item name="bottomNavBarColor">@color/white</item>
+        <item name="bottomNavBarTextColor">@null</item>
+        <item name="homeButtonColor">@color/blue</item>
+        <item name="fontColor">@color/winterblue</item>
+        <!--  <item name="backgroundColor2">@color/yellow</item> -->
+        <item name="android:windowAnimationStyle">@style/windowAnimationTransition</item>
+        <item name="daily_background">@drawable/background_cold</item>
+    </style>
+
+    <!-- WARM -->
+    <style name="lightThemeDaily" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/brown</item>
+        <item name="colorPrimaryDark">@color/colorNavBackLight</item>
+        <item name="backgroundColor">#fcfcfc</item>
+        <item name="cardBackground">@color/white</item>
+        <item name="textColor">@color/brown</item>
+        <item name="tintColor">@color/black</item>
+        <item name="buttonColor">#D3D3D3</item>
+        <item name="buttonTextColor">@color/white</item>
+        <item name="bottomNavBarColor">@color/white</item>
+        <item name="bottomNavBarTextColor">@null</item>
+        <item name="homeButtonColor">@color/brown</item>
+        <item name="fontColor">@color/brown</item>
+        <!--  <item name="backgroundColor2">@color/yellow</item> -->
+        <item name="daily_background">@drawable/backgroundwarm</item>
+        <item name="android:windowAnimationStyle">@style/windowAnimationTransition</item>
+        <item name="mainPictureOutline">@drawable/ic_sun_outline</item>
+    </style>
+
+    <style name="lightThemeDailyDark" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorPrimaryDark">@color/yellowDark</item>
+        <item name="backgroundColor">#fcfcfc</item>
+        <item name="cardBackground">@color/white</item>
+        <item name="textColor">@color/purpure</item>
+        <item name="tintColor">@color/black</item>
+        <item name="buttonColor">#D3D3D3</item>
+        <item name="buttonTextColor">@color/white</item>
+        <item name="bottomNavBarColor">@color/white</item>
+        <item name="bottomNavBarTextColor">@null</item>
+        <item name="homeButtonColor">@color/yellow</item>
+        <item name="fontColor">@color/purpure</item>
+        <!--  <item name="backgroundColor2">@color/yellow</item> -->
+        <item name="android:windowAnimationStyle">@style/windowAnimationTransition</item>
+        <item name="daily_background">@drawable/backgroundbreezy</item>
+        <item name="mainPictureOutline">@drawable/ic_moon_outline</item>
+    </style>
+
+
+    <!-- Monthly climate -->
+    <style name="lightThemeMonthly" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/redDark</item>
+        <item name="backgroundColor">#fcfcfc</item>
+        <item name="cardBackground">@color/white</item>
+        <item name="textColor">#808080</item>
+        <item name="tintColor">@color/black</item>
+        <item name="buttonColor">#D3D3D3</item>
+        <item name="buttonTextColor">@color/white</item>
+        <item name="bottomNavBarColor">@color/white</item>
+        <item name="bottomNavBarTextColor">@null</item>
+        <item name="homeButtonColor">@color/red</item>
+      <!--  <item name="backgroundColor2">@color/red</item> -->
+        <item name="android:windowAnimationStyle">@style/windowAnimationTransition</item>
+    </style>
+
+    <!-- MAP -->
+    <style name="lightThemeMap" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/blueDark</item>
+        <item name="backgroundColor">#fcfcfc</item>
+        <item name="cardBackground">@color/white</item>
+        <item name="textColor">#808080</item>
+        <item name="tintColor">@color/black</item>
+        <item name="buttonColor">#D3D3D3</item>
+        <item name="buttonTextColor">@color/white</item>
+        <item name="bottomNavBarColor">@color/white</item>
+        <item name="bottomNavBarTextColor">@null</item>
+        <item name="homeButtonColor">@color/blue</item>
+       <!--  <item name="backgroundColor2">@color/blue</item> -->
+        <item name="android:windowAnimationStyle">@style/windowAnimationTransition</item>
+    </style>
+
+    <!-- SEARCH -->
+    <style name="lightThemeSearch" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorPrimaryDark">@color/yellowDark</item>
+        <item name="backgroundColor">#fcfcfc</item>
+        <item name="cardBackground">@color/white</item>
+        <item name="textColor">#808080</item>
+        <item name="tintColor">@color/black</item>
+        <item name="buttonColor">#D3D3D3</item>
+        <item name="buttonTextColor">@color/white</item>
+        <item name="bottomNavBarColor">@color/white</item>
+        <item name="bottomNavBarTextColor">@null</item>
+        <item name="homeButtonColor">@color/yellow</item>
+        <!--  <item name="backgroundColor2">@color/blue</item> -->
+        <item name="android:windowAnimationStyle">@style/windowAnimationTransition</item>
+        <item name="searchPicture">@drawable/ic_sun</item>
+        <item name="backgroundImage">@drawable/yellow_background</item>
+        <item name="colorNavBack">@color/colorNavBackLight</item>
+    </style>
+
+    <style name="darkThemeSearch" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundColor">#303030</item>
+        <item name="cardBackground">#424242</item>
+        <item name="textColor">@color/white</item>
+        <item name="tintColor">@color/white</item>
+        <item name="buttonStartColor">@color/black</item>
+        <item name="buttonEndColor">#232526</item>
+        <item name="buttonColor">@color/black </item>
+        <item name="buttonTextColor">#D3D3D3</item>
+        <item name="bottomNavBarColor">@color/lightgrey</item>
+        <item name="bottomNavBarTextColor">@color/white</item>
+        <item name="homeButtonColor">@color/black</item>
+        <!--  <item name="backgroundColor2">#303030</item> -->
+        <item name="android:windowAnimationStyle">@style/windowAnimationTransition</item>
+        <item name="searchPicture">@drawable/ic_moon2</item>
+        <item name="backgroundImage">@drawable/search_background_dark</item>
+        <item name="colorNavBack">@color/colorNavBackDark</item>
+    </style>
+
+    <!-- FutureForecast -->
+    <style name="lightThemeFuture" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryDark">@color/greenDark</item>
+        <item name="backgroundColor">#fcfcfc</item>
+        <item name="cardBackground">@color/white</item>
+        <item name="textColor">#808080</item>
+        <item name="tintColor">@color/black</item>
+        <item name="buttonColor">#D3D3D3</item>
+        <item name="buttonTextColor">@color/white</item>
+        <item name="bottomNavBarColor">@color/white</item>
+        <item name="bottomNavBarTextColor">@null</item>
+        <item name="homeButtonColor">@color/green</item>
+        <!--  <item name="backgroundColor2">@color/blue</item> -->
+        <item name="android:windowAnimationStyle">@style/windowAnimationTransition</item>
+    </style>
+
+    <!-- Light/Day Mode theme -->
+    <style name="lightTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="appNameColor">#000000</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundColor">#fcfcfc</item>
+        <item name="cardBackground">#ffffff</item>
+        <item name="textColor">#808080</item>
+        <item name="tintColor">#000000</item>
+        <item name="buttonColor">#D3D3D3</item>
+        <item name="buttonStartColor">#BEC0C2</item>
+        <item name="buttonEndColor">#A1A2A3</item>
+        <item name="buttonTextColor">#000000</item>
+        <item name="android:windowAnimationStyle">@style/windowAnimationTransition</item>
+        <item name="searchPicture">@drawable/ic_sun</item>
+        <item name="colorNavBack">@color/colorNavBackLight</item>
+        <item name="test">@drawable/ic_sun</item>
+    </style>
+
+    <!-- Dark/Night Mode theme for all activities -->
+    <style name="darkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundColor">#303030</item>
+        <item name="cardBackground">#424242</item>
+        <item name="textColor">@color/white</item>
+        <item name="tintColor">@color/white</item>
+        <item name="fontColor">@color/white</item>
+        <item name="buttonStartColor">@color/black</item>
+        <item name="buttonEndColor">#232526</item>
+        <item name="buttonColor">@color/black </item>
+        <item name="buttonTextColor">#D3D3D3</item>
+        <item name="bottomNavBarColor">@color/lightgrey</item>
+        <item name="bottomNavBarTextColor">@color/white</item>
+        <item name="homeButtonColor">@color/black</item>
+       <!--  <item name="backgroundColor2">#303030</item> -->
+        <item name="android:windowAnimationStyle">@style/windowAnimationTransition</item>
+        <item name="searchPicture">@drawable/ic_moon2</item>
+        <item name="mainPictureOutline">@drawable/ic_moon_outline</item>
+        <item name="colorNavBack">@color/colorNavBackDark</item>
+        <item name="sunIconColor">#212121</item>
+        <item name="test">@drawable/ic_sun</item>
+        <item name="bottomBarColor">#000000</item>
+    </style>
+
+    <!-- Transition for all activities -->
+    <style name="windowAnimationTransition">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+
+</resources>

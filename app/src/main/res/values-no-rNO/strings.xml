@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MAIN PAGE -->
+    <string name="fremtidsprognoser">Årlige klimautvikling</string>
+    <string name="kart">Kart</string>
+    <string name="utvikling">Månedsvis klimautvikling</string>
+    <string name="dagens">Daglige klimautvikling</string>
+
+    <!-- BOTTOM NAV BAR -->
+    <string name="temperatur">Temperatur</string>
+    <string name="snø">Snø</string>
+    <string name="nedbør">Nedbør</string>
+
+    <!-- INSTILLINGER -->
+    <string name="stedstjenesteTitle">Aktiver stedstjeneste</string>
+    <string name="stedstjeneste">Stedstjeneste</string>
+    <string name="språkTitle">Endre språk</string>
+    <string name="velgSpråk">Velg språk</string>
+    <string name="settingTitle">Innstillinger</string>
+    <string name="darkModeTitle">Aktiver nattmodus</string>
+    <string name="darkMode">Nattmodus</string>
+    <string name="språk">Endre språk</string>
+
+    <!-- DAILY CLIMATE -->
+
+    <!-- MONTHLY CLIMATE -->
+    <string name="title_activity_klimautvikling">Månedsvis temperaturutvikling i Norge</string>
+    <string name="velgMaaned">Vennligst velg måned!</string>
+    <string name="januar">Januar</string>
+    <string name="februar"> Februar</string>
+    <string name="mars">Mars</string>
+    <string name="april">April</string>
+    <string name="mai">Mai</string>
+    <string name="juni">Juni</string>
+    <string name="juli">Juli</string>
+    <string name="august">August</string>
+    <string name="september">september</string>
+    <string name="oktober">Oktober</string>
+    <string name="november">November</string>
+    <string name="desember">Desember</string>
+
+    <string name="tmpCelcius">Temperatur i Celcius</string>
+    <string name="nedborMM">Nedbør i mm</string>
+    <string name="regresjon">Regresjon</string>
+    <string name="data">Data fra API</string>
+    <string name="nedbor">nedbør</string>
+    <string name="grader">grader</string>
+    <string name="mm">mm</string>
+    <string name="infoTekst">"\n\n\n
+        <![CDATA[%1$s i <font color=\'#cc0029\'>%2$s</font> måneden har %3$s i gjennomsnitt med <font color=\'#cc0029\'>%4$s %5$s</font> per år i Norge.]]>
+        \n \n \n \n \n "
+    </string>
+
+
+
+    <!-- FUTURE FORECAST -->
+    <string name="velgType">Vennligst velg fra menyen</string>
+    <string name="gjTmpAar">Gjennomsnittlig temperatur - år</string>
+    <string name="gjTmpSesong">Gjennomsnittlig temperatur - sesong</string>
+    <string name="nedborAar">Mengde nedbør - år</string>
+    <string name="nedborSesong">Mengde nedbør - sesong</string>
+    <string name="grense">"Vis/skjul gjennomsnitt "</string>
+
+    <!-- KART -->
+    <string name="norgeskart">norgeskart</string>
+    <string name="fargeblindvennlig">Fargeblindvennlig</string>
+
+    <!-- TULL -->
+    <string name="nav_header_title">nav_header_title</string>
+    <string name="nav_header_subtitle">nav_header_subtitle</string>
+    <string name="nav_header_desc">nav_header_desc</string>
+    <string name="title_notifications">title_notifications</string>
+    <string name="title_home">title_home</string>
+    <string name="title_dashboard">title_dashboard</string>
+    <string name="desc">beskrivelse</string>
+    <string name="rstall">"Årstall "</string>
+    <string name="_1963">1963</string>
+    <string name="tmp">temperatur</string>
+
+    <!-- SEARCH -->
+    <string name="station_prompt">Velg en værstasjon</string>
+    <string-array name="station_arrays">
+        <item>Oslo (Blindern)</item>
+        <item>Ås (NMBU) - Akershus</item>
+        <item>Rygge - Østfold</item>
+        <item>Østre Toten - Oppland</item>
+        <item>Færder - Vestfold</item>
+        <item>Kristiansand - Vest-Agder</item>
+        <item>Utsira - Rogaland</item>
+        <item>Bømlo - Hordaland</item>
+        <item>Norddal - Møre og Romsdal</item>
+        <item>Meløy - Nordland</item>
+        <item>Tromsø - Troms</item>
+        <item>Kautokeino - Finnmark</item>
+        <item>Hornsund - Svalbard</item>
+        <item>Jan Mayen</item>
+        <item>Hele Norge</item>
+    </string-array>
+
+    <string name="element_prompt">Velg et element</string>
+    <string-array name="element_arrays">
+        <item>Temperatur</item>
+        <item>Nedbør</item>
+        <item>Snømengde</item>
+    </string-array>
+
+    <string name="temperatureData">Temperatur</string>
+    <string name="rainfallData">Nedbør</string>
+    <string name="snowfallData">Snømengde</string>
+
+    <string name="submit">Søk</string>
+    <string name="searchName">Søkefunksjon</string>
+    <string name="noData">"Stasjonen %1$s har dessverre ingen %2$ssdata for den valgte datoen."</string>
+
+    <string name="okt">økt</string>
+    <string name="minket">minket</string>
+    <string name="dataFraFrost">Data fra API</string>
+
+    <string name="GPS">Vennligst slå på GPS</string>
+    <string name="naa">Nå</string>
+    <string name="termsOfService">Vilkår for bruk</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="content_mail">Melding</string>
+    <string name="cancel_mail">Avbryt</string>
+    <string name="send_mail">Send</string>
+    <string name="title_mail">Tittel</string>
+    <string name="MadeBy">EcoGraphics er laget av Ahlam Aatif, Zixiuan Liu, Mai Julie Nguyen, Thu Thu Thi Vo, Eline
+        Wong.
+    </string>
+    <string name="_1963_rain">1966</string>
+    <string name="_1963_temp">1966</string>
+    <string name="action_settings">Instillinger</string>
+    <string name="bliKjent">Klikk her for å bli bedre kjent med funksjonene i appen</string>
+    <string name="dagensklima">Dagens klimaavvik</string>
+    <string name="ecoTittel">Velkommen til ecoGraphics!</string>
+    <string name="gjennomsnittstemperatur_i_celcius">Gjennomsnittstemperatur i Celsius</string>
+    <string name="message_mail">Melding</string>
+    <string name="kontaktOss">Kontaks oss</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="tittel_nedbør">Totalnedbør i året i millimeter</string>
+    <string name="tutorial">Hvordan bruke ecoGraphics</string>
+    <string name="dialog_title">Tittel</string>
+    <string name="ecoBeskrivelse">"EcoGraphics er en samling av historisk data for temperatur og nedbør i Norge opp
+        gjennom årene. Dataene er presentert gjennom fire forskjellige funksjoner.\n "
+    </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="intro_mail">"Er det noe galt med ecoGraphics? Send oss en mail! Skriv en tittel og beskrivelse for
+        problemområdet under, så skal vi jobbe så godt vi kan med å fikse problemet.\n \n "
+    </string>
+    <string name="goToActivity">Gå til funksjon</string>
+    <string name="searchBeskrivelse">Første funksjon gir deg muligheten til å finne temperaturen og nedbørsmengden for
+        en selvvalgt by for en bestemt dato
+    </string>
+    <string name="searchTitle">Søk opp en by</string>
+    <string name="monthTitle">Sammenlign måneder i Norge</string>
+    <string name="yearTitle">Sammenlign årene i Norge</string>
+    <string name="yearBeskrivelse">"Her kan du se hvordan gjennomsnittstemperaturen eller -nedbør for årene i Norge har
+        utviklet seg. Du kan velge å sammeligne årvis eller sesongmessig.\n "
+    </string>
+    <string name="mapTitle">Sammenlign fylkene i Norge</string>
+    <string name="mapBeskrivelse">"Her får du visualisert hvordan temperaturen eller nedbørsmengden i de forskjellige
+        fylkene i Norge. Dra glideren til ønsket årstall og se hvordan fargekodene endrer seg. "
+    </string>
+    <string name="tutorialTitle">Bli kjent med ecoGraphics</string>
+    <string name="done">Ferdig</string>
+    <string name="monthBeskrivelse">Denne funksjonen gir deg en grafisk fremstilling av hvordan temperaturen eller
+        nedbørsmengden for en valgt måned har utviklet seg opp gjennom årene. I tillegg er det en regresjonslinje som
+        visualiserer hvordan klimaet har utviklet seg og hvordan det kan utvikle seg videre.
+    </string>
+    <string name="versjon">EcoGraphics Versjon 1.0.0</string>
+
+    <string name="termsOfServiceInnhold">" EcoGraphics er en gratis app utviklet av Ahlam Aatif, Eline Wong, ThuThuan Thi Vo, Mai Julie Nguyen og Zixuan Liu som en del av IN2000-prosjektet våren 2019 ved UiO. Formålet med appen er å visualisere historisk klimadata baserte på APIet til Frost fra Meteorologisk Institutt. \n\n
+
+Dersom du gir EcoGraphics tilgang til din posisjon, vil EcoGraphics benytte denne informasjonen til å vise deg den nærmeste værstasjonen, samt temperaturdata fra værstasjonen. Informasjonen lagres ikke. \n\n
+
+Dersom du kontakter oss via epost, vil eposten lagres frem til henvendelsen er besvart. Dersom du ønsker å slette henvendelsen før den besvares, kan du be om dette via kontaktskjemaet i appen."
+    </string>
+</resources>
