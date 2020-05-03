@@ -1,5 +1,5 @@
 # EcoGraphics <img src="https://image.flaticon.com/icons/svg/1458/1458427.svg" width="40px">
-Velkommen til EcoGraphics! Denne appen visualiserer historiske værdata fra Frost-APIet til metereologisk institutt. Den har fire hovedfunksjoner:
+Denne appen visualiserer historiske værdata fra Frost-APIet til metereologisk institutt. Den har fire hovedfunksjoner:
 * Søk etter klimadata fra spesifikk dag
 * Klimautvikling i hver måned
 * Klimautvikling i hver sesong / år
